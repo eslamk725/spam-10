@@ -31,7 +31,7 @@ client.on('message', message => {
 client.on("ready", () => {
 let channel =     client.channels.get("600487706660700170")
 setInterval(function() {
-channel.send(`#credits "+"<@" + myid + ">" 11000`);
+channel.send(``);
 }, 30)
 })
 
