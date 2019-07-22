@@ -24,7 +24,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + myid + ">")
+        message.channel.send("#credits "+"<@" + myid + ">" 11469)
     }
 });
 
